@@ -24,6 +24,7 @@ public class Gerente extends Funcionario{
 	//Metodo sobreescrito
 	//La misma firma
 	
+	@Override
 	public double getBonificacion() {
 		return super.getSalario();
 	}
